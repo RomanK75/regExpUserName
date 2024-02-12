@@ -30,7 +30,7 @@ test('Тест на символы тире и подчеркивания в н�
 });
 
 test('Тест на 3 цифры подряд', () => {
-  validator.setUsername('john_123');
+  validator.setUsername('john_123doe');
   expect(validator.validateUserName()).toBe(false);
 });
 
